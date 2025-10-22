@@ -1,1 +1,6 @@
-
+/* we want the main container to take up full screen and have a red background*/
+.pageContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}

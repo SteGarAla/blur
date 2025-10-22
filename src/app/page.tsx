@@ -1,3 +1,9 @@
+import css from "./page.module.css";
+
 export default function Home() {
-  return <div>blur blur blur</div>;
+  return (
+    <main className={css.pageContainer}>
+      <section className={css.mainSection}></section>
+    </main>
+  );
 }
